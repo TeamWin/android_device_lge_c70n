@@ -1,2 +1,3 @@
-# android_device_lge_c70n
-LG Spirit LTE's device tree
+#Squid TWRP tree for Moto G (2015)
+
+See the common README for more info.

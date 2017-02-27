@@ -1,0 +1,1 @@
+PRODUCT_COPY_FILES += device/lge/c70n/twrp.fstab:recovery/root/etc/twrp.fstab
