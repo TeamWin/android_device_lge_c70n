@@ -1,6 +1,6 @@
 /boot	emmc	/dev/block/bootdevice/by-name/boot
 /system	ext4	/dev/block/bootdevice/by-name/system
-/data 	ext4 	/dev/block/bootdevice/by-name/userdata	flags=fsflags=rw,discard,nosuid,nodev,noatime,nodiratime,inline_xattr,inline_data;encryptable=/dev/block/bootdevice/by-name/metadata
+/data 	ext4 	/dev/block/bootdevice/by-name/userdata	flags=fsflags=rw,nosuid,nodev,noatime,nodiratime;encryptable=/dev/block/bootdevice/by-name/metadata
 /cache	ext4	/dev/block/bootdevice/by-name/cache
 /recovery	emmc	/dev/block/bootdevice/by-name/recovery
 /misc	emmc	/dev/block/bootdevice/by-name/misc
