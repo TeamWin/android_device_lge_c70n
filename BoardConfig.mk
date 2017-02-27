@@ -61,5 +61,4 @@ TARGET_PREBUILT_KERNEL := device/lge/c70n/recovery/kernel
 
 # TWRP
 TW_THEME := portrait_hdpi
-TW_NO_SCREEN_BLANK := true
-TW_SCREEN_BLANK_ON_BOOT := true
+TARGET_RECOVERY_QCOM_RTC_FIX := true
